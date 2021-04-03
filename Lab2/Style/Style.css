@@ -4,14 +4,14 @@ body
   height: auto;
   margin: 0px;
   padding: 0px;
-  font-family: "Arial", "Tahoma","Verdana";
+  font-family: Helvetica, "Helvetica Neue", sans-serif;
   background-color:#333;
 }
 
 .head1
 {
 	position: relative;
-	color: #ffffff;
+	color: #fff;
 	opacity: 0.8;
 	font-weight: 700;
 	margin-left: 0px;
@@ -42,11 +42,6 @@ body
 {
 	background-color:#333;
 	background-repeat:no-repeat;
-	-moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-
 }
 
 #header

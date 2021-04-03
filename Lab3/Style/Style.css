@@ -1,0 +1,293 @@
+body
+{ 
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial", "Tahoma","Verdana";
+  background-color:#333;
+}
+
+.head1
+{
+	position: relative;
+	color: #ffffff;
+	opacity: 0.8;
+	font-weight: 700;
+	margin-left: 0px;
+	z-index: 2;
+	top: 85px;
+	padding-left:850px; 
+	font-family: SuperPuperFont;
+	font-size:75px; 
+}
+
+.head2
+{
+	position: relative;
+	font-weight: 700;
+	margin-left: 4px;
+	top: 0px;
+	z-index: 1;
+	color: #000000;
+	padding-left:850px; 
+	font-family: SuperPuperFont;
+	font-size:75px; 
+}
+
+@media only screen and (max-width:1250px)
+{
+	.head1,.head2
+	{
+		padding-left: 25px;
+	}
+}
+
+#page
+{
+	width: 1080px;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+#container
+{
+	background-color:#333;
+	background-repeat:no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+
+}
+
+#header
+{
+	width: 1080px;
+	height: auto;
+	padding: 0px;
+	margin: 0 auto;
+
+}
+
+.otctup
+{
+text-indent: 20px;
+color:Black;
+text-align: left;
+font-famaly: Arial;
+font-size: 13pt;
+margin-top: 10px;
+padding: 5px 1em 0 1em;
+}
+
+#videlenie
+{
+	font-weight: bold;
+}
+
+
+.razmer
+{
+text-align:center;
+color:Black;
+font-famaly:Arial;
+font-size:16pt;
+
+}
+
+
+.style
+{
+font-weight: 600;
+text-indent: 20px;
+color:Black;
+text-align: left;
+font-famaly: Arial;
+font-size: 12pt;
+
+}
+
+#content
+{
+width:1055px;
+height:auto;
+border: 4px double black;
+margin: 0 auto;
+opacity: 0.8;
+background: #ffffff;
+padding: 10px;
+}
+
+#Menu
+{
+	opacity: 0.8;
+	width: 1080px;
+	height: auto;
+}
+
+li
+{
+  list-style: none; 
+  margin: 0 auto;
+  display: inline; /* Отображать как строчный элемент */
+
+}
+
+table 
+{
+    width: 300px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+   
+.spis a
+{
+  padding: 1.6em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+  font-size: 30px;
+  outline: none;
+} 
+
+i 
+{
+	margin-right: 10px;
+}
+
+ul {
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+}
+
+
+.spis a:hover {background: #ADC0CE}
+
+
+.sl2
+{
+	font-family: Esenin;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.sl3
+{
+	font-family: Esenin;
+	color: #ffffff;
+	font-size: 30px;
+	/*margin: 25px auto;
+	margin-left: 850px;*/
+	text-decoration: none;
+}
+
+
+#footer
+{
+	height: 80px;
+	width: 1080px;
+	margin: 0 auto;
+	background: linear-gradient(0deg,#537c9f,#010005);
+	opacity: 0.7;
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+}
+
+.foot1
+{
+	font-family: Esenin;
+	color: #79A0C2;
+	font-size: 30px;
+	/*margin: 25px auto;
+	margin-left: 40px;*/
+}
+
+.foot2
+{
+	/*margin-left:auto;*/
+}
+
+@media only screen and (max-width:900px)
+{
+	#footer
+	{
+		flex-direction:column;
+	}
+}
+
+.knig
+{
+	border: 4px double black;
+}
+
+hr
+{
+	border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+	height:2px;
+}
+
+
+
+.submenu ul{
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.image1
+{
+	width: 300px;
+	height: 200px;
+	border: 4px double black;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.sil1
+{
+	border: 2px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Black Italic'), local('Helvetica-Neue-Black-Italic'),
+        url('HelveticaNeueCyr-BlackItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-BlackItalic.woff') format('woff'),
+        url('HelveticaNeueCyr-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+
+@media only screen and (max-width:1250px)
+{
+	 #page, #header
+	{
+		width: initial;
+	}
+}
