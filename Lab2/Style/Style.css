@@ -1,0 +1,310 @@
+body
+{ 
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, "Helvetica Neue", sans-serif;
+  background-color:#333;
+}
+
+.head1
+{
+	position: relative;
+	color: #fff;
+	opacity: 0.8;
+	font-weight: 700;
+	margin-left: 0px;
+	z-index: 2;
+	top: 85px;
+	font-size: 25px;
+}
+
+.head2
+{
+	position: relative;
+	font-weight: 700;
+	margin-left: 4px;
+	top: 0px;
+	z-index: 1;
+	font-size: 25px;
+	color: #000000;
+}
+
+#page
+{
+	width: 1080px;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+#container
+{
+	background-color:#333;
+	background-repeat:no-repeat;
+}
+
+#header
+{
+	width: 1080px;
+	height: auto;
+	padding: 0px;
+	margin: 0 auto;
+
+}
+
+p
+{
+text-indent: 20px;
+color:Black;
+text-align: left;
+font-famaly: Arial;
+font-size: 13pt
+}
+
+
+h1
+{  
+padding-left:850px; 
+font-family: SuperPuperFont;
+font-size:50px; 
+}
+
+h2
+{
+text-align:center;
+color:Black;
+font-famaly:Arial;
+font-size:16pt
+}
+
+
+.style
+{
+font-weight: 600;
+text-indent: 20px;
+color:Black;
+text-align: left;
+font-famaly: Arial;
+font-size: 12pt;
+}
+
+#content
+{
+width:1055px;
+height:auto;
+border: 4px double black;
+margin: 0 auto;
+opacity: 0.8;
+background: #ffffff;
+padding: 10px;
+}
+
+#Menu
+{
+	opacity: 0.8;
+	width: 1080px;
+	height: auto;
+}
+
+li
+{
+  list-style: none; 
+  margin: 0 auto;
+  display: inline; /* Отображать как строчный элемент */
+
+}
+
+#myElement
+{
+	margin: 20px auto; 
+}
+.spis a
+{
+  padding: 1.6em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+  font-size: 30px;
+  outline: none;
+} 
+
+i 
+{
+	margin-right: 10px;
+}
+
+ul {
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+}
+
+
+.spis a:hover {background: #ADC0CE}
+
+
+.sl2
+{
+	font-family: Esenin;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.sl3
+{
+	font-family: Esenin;
+	color: #ffffff;
+	font-size: 30px;
+	position: absolute;
+	margin: 25px auto;
+	margin-left: 850px;
+	text-decoration: none;
+}
+
+
+#footer
+{
+	height: 80px;
+	width: 1080px;
+	margin: 0 auto;
+	background: linear-gradient(0deg,#537c9f,#010005);
+	opacity: 0.7;
+}
+
+.foot1
+{
+	font-family: Esenin;
+	color: #79A0C2;
+	font-size: 30px;
+	position: absolute;
+	margin: 25px auto;
+	margin-left: 40px;
+}
+
+.knig
+{
+	border: 4px double black;
+}
+
+#kniga
+{
+	position: absolute;
+	margin-left: 400px;
+	top:320px;
+}
+
+#kniga2
+{
+	position: absolute;
+	margin-left: 400px;
+	top:1030px;
+}
+
+#kniga3
+{
+	position: absolute;
+	margin-left: 400px;
+	top:1590px;
+}
+
+#kn01
+{
+	position: absolute;
+	margin-left: 400px;
+	top:2220px;
+}
+
+#kn02
+{
+	position: absolute;
+	margin-left: 400px;
+	top:2700px;
+}
+
+#kn03
+{
+	position: absolute;
+	margin-left: 400px;
+	top:3290px;
+}
+
+#textknig
+{
+	position: absolute;
+	margin-left: 300px;
+	top:230px;
+}
+
+
+.submenu ul{
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.image1
+{
+	width: 300px;
+	height: 200px;
+	border: 4px double black;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.sil1
+{
+	border: 2px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Black Italic'), local('Helvetica-Neue-Black-Italic'),
+        url('HelveticaNeueCyr-BlackItalic.woff2') format('woff2'),
+        url('HelveticaNeueCyr-BlackItalic.woff') format('woff'),
+        url('HelveticaNeueCyr-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+  h1 {
+    font-family: Helvetica Neue;
+   }
+$("a.gallery2").fancybox
+(
+{						
+    "padding" : 20,
+    "imageScale" : false, 
+	"zoomOpacity" : false,
+	"zoomSpeedIn" : 1000,	
+	"zoomSpeedOut" : 1000,	
+	"zoomSpeedChange" : 1000, 
+	"frameWidth" : 700,	 
+	"frameHeight" : 600, 
+	"overlayShow" : true, 
+	"overlayOpacity" : 0.8,	
+	"hideOnContentClick" :false,
+	"centerOnScroll" : false,
+	"border: 4px double black	
+})
+
